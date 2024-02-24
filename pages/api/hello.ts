@@ -5,15 +5,18 @@ const Database = require("@replit/database");
 const db = new Database();
 
 type Data = {
-  name: string;
+  result: [];
 };
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>,
 ) {
-  let tabs_today = (await db.get("tabs_today")) ?? 0;
+  const { id } = req.query;
+
+  let tabs_today = (await db.get(id)) ?? 0;
   tabs_today += 1;
-  await db.set("tabs_today", tabs_today);
-  res.status(200).json({ tabs_today: tabs_today });
+  await db.set(id, tabs_today);
+
+  res.status(200).json({ result: tabs_today } as Data);
 }

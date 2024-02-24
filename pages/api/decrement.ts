@@ -11,6 +11,11 @@ export default async function handler(
   res: NextApiResponse<Data>,
 ) {
   const { id } = req.query;
-  await db.set(id, 0);
+
+  let tabs_today = (await db.get(id)) ?? 0;
+  tabs_today -= 1;
+  tabs_today = Math.max(0, tabs_today);
+
+  await db.set(id, tabs_today);
   res.status(200).json({});
 }
