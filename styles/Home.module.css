@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital@0;1&display=swap');
+
+.container {
+  padding: 0 2rem;
+  background-color: #A7A5A5;
+}
+
+.reset {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.fact {
+  margin-left: 20%;
+  margin-right: 20%;
+  color: white;
+  font-family: monospace;
+  font-weight: thin;
+}
+
+.promo {
+  object-fit: contain;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  color: white;
+  line-height: 1.15;
+  font-size: 2rem;
+  font-family: Familjen Grotesk;
+}
+
+.title,
+.description {
+  text-align: center;
+}
