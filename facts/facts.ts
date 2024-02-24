@@ -64,12 +64,15 @@ export const data = {
   ],
 
   14: [
-    "A sonnet is a poem traditionally composed of 14 lines, often dealing with themes of love, beauty, politics, and mortality, popularized by poets such as William Shakespeare.", "Humans typically have 14 phalanges (finger bones) in each hand—three in each finger (proximal, medial, and distal) and two in the thumb—making up the fingers' skeletal structure.", "During the investigation into the Watergate scandal, a mysterious 14-minute gap was discovered in one of President Richard Nixon's audio tapes, leading to speculation and controversy over its contents."
+    "A sonnet is a poem traditionally composed of 14 lines, often dealing with themes of love, beauty, politics, and mortality, popularized by poets such as William Shakespeare.",
+    "Humans typically have 14 phalanges (finger bones) in each hand—three in each finger (proximal, medial, and distal) and two in the thumb—making up the fingers' skeletal structure.",
+    "During the investigation into the Watergate scandal, a mysterious 14-minute gap was discovered in one of President Richard Nixon's audio tapes, leading to speculation and controversy over its contents.",
   ],
 
   15: [
-    "Including substitutes, a water polo team consists of 15 players, though only seven (including the goalkeeper) can be in the water at any time during a match.", "Swedish environmental activist Greta Thunberg gained international recognition for her efforts to combat climate change at the age of 15, leading to a Nobel Peace Prize nomination."
-  ], 
+    "Including substitutes, a water polo team consists of 15 players, though only seven (including the goalkeeper) can be in the water at any time during a match.",
+    "Swedish environmental activist Greta Thunberg gained international recognition for her efforts to combat climate change at the age of 15, leading to a Nobel Peace Prize nomination.",
+  ],
 
   16: ["Have you thought about using the same tab?"],
 
@@ -78,6 +81,6 @@ export const data = {
   18: ["Seriously, this is charging our credit card..."],
 
   19: [
-    "PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE",
+    "PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE PLEASE",
   ],
 };

@@ -20,13 +20,7 @@ const Home: NextPage = () => {
 
   const reset = async (queryParams) => {
     await fetch(`/api/reset?${queryParams}`);
-    fetchData(queryParams);
   };
-
-  // const decrement = async (queryParams) => {
-  //   await fetch(`/api/decrement?${queryParams}`);
-  //   fetchData(queryParams);
-  // };
 
   useEffect(() => {
     const uid = localStorage.getItem("session_id") ?? uuidv4();
@@ -36,16 +30,7 @@ const Home: NextPage = () => {
     });
 
     fetchData(queryParams);
-
-    // const onbeforeunloadFn = async () => {
-    //   localStorage.setItem("session_id", uid);
-    //   await decrement(queryParams);
-    // };
-
-    // window.addEventListener("beforeunload", onbeforeunloadFn);
-    // return () => {
-    //   window.removeEventListener("beforeunload", onbeforeunloadFn);
-    // };
+    localStorage.setItem("session_id", uid);
   }, []);
 
   useEffect(() => {
