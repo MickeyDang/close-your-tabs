@@ -41,11 +41,15 @@ export const data = {
     "In medical treatment for burn victims, the body is divided into sections that represent 9% (or multiples thereof) of the body surface area, helping to estimate the total area affected by burns and guide treatment decisions.",
   ],
 
-  10: ["Ben 10 is a popular animated television series that follows 10-year-old Ben Tennyson, who finds a mysterious watch-like device (the Omnitrix) that allows him to transform into ten different aliens.", "A decathalon is an athletic event consisting of ten track and field events. Athletes compete in events over two days, including sprints, jumps, throws, and distance running, testing their versatility and endurance."],
+  10: ["Ben 10 is a popular animated television series that follows 10-year-old Ben Tennyson, who finds a mysterious watch-like device (the Omnitrix) that allows him to transform into ten different aliens.", "A decathalon is an athletic event consisting of ten track and field events. Athletes compete in events over two days, including sprints, jumps, throws, and distance running, testing their versatility and endurance.", "In the 19th and early 20th centuries, dime novels were a popular form of cheap literature in the United States, costing ten cents. They were known for sensational stories of adventure, mystery, and romance."],
 
-  11: ["have you thought about closing some tabs?"],
+  11: ["The Sun’s magnetic field goes through a cycle, approximately every 11 years, from solar maximum to solar minimum, affecting solar radiation and space weather.", "11th hour rescues is a term used by animal shelters for pets saved from euthanasia at the last possible moment, often facilitated by last-minute adoptions or transfers to no-kill facilities."],
 
-  12: ["please stop opening any more..."], 
+  12:["The Chinese zodiac cycle repeats every 12 years, with each year associated with a specific animal that symbolizes certain personality traits and fortunes.", ""],
+
+  13: ["have you thought about closing some tabs?"],
+
+  14: ["please stop opening any more..."], 
 
   
 };

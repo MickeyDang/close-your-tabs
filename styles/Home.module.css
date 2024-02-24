@@ -2,25 +2,29 @@
 
 .container {
   padding: 0 2rem;
-  background-color: #A7A5A5;
+  background-color: #929292;
 }
 
 .reset {
   position: absolute;
   bottom: 5%;
-  right: 5%;
+  right: 2%;
 }
 
 .fact {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
   color: white;
   font-family: monospace;
-  font-weight: thin;
+  font-weight: normal;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .promo {
   object-fit: contain;
+  margin-bottom: -20%;
 }
 
 .main {

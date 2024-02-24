@@ -4,7 +4,6 @@ import Head from "next/head";
 import { data } from "../facts/facts_copy.ts";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
-import fiveguys from "../public/fiveguys.png";
 
 const Home: NextPage = () => {
   const [numTabs, setNumTabs] = useState(0);
@@ -19,12 +18,11 @@ const Home: NextPage = () => {
   };
 
   const reset = async () => {
-    const result = await fetch("/api/reset");
+    await fetch("/api/reset");
     fetchData();
   };
 
   useEffect(() => {
-    console.log("useEffect defining fetchData()");
     fetchData();
   }, []);
 
@@ -36,13 +34,13 @@ const Home: NextPage = () => {
         setFact(factList[Math.floor(Math.random() * factList.length)]);
       } else {
         setFact(
-          "Woah we ran out of facts... you should really consider closing a tab...",
+          "please stop opening more tabs",
         );
       }
     }
 
     if (numTabs === 5) {
-      setImgSrc(fiveguys);
+      setImgSrc("/fiveguys.png");
     } else {
       setImgSrc("");
     }
@@ -63,8 +61,8 @@ const Home: NextPage = () => {
           <Image
             className={styles.promo}
             src={imgSrc}
-            width="128"
-            height="128"
+            width="512"
+            height="512"
           />
         )}
         <button className={styles.reset} onClick={reset}>
